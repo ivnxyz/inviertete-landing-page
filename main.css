@@ -1,6 +1,10 @@
+* {
+  font-family: 'Source Code Pro', monospace;
+}
+
 #welcome-section {
   min-height: calc(100vh - 50px);
-  background-image: url('./images/inviertete-background-image.png');
+  background-image: url('./images/inviertete-background-imag.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -42,6 +46,12 @@
   background-color: white;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.03);
   padding: 5%;
+}
+
+.student-card {
+  background-color: white;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.03);
+  border: none !important;
 }
 
 .course-card-name {
