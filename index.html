@@ -17,6 +17,7 @@
   <div>
     <a class="navbar-brand" href="./index.html">🏛 Inicio</a>
     <a class="navbar-brand" href="./students.html">👩🏽‍🎓 Estudiantes</a>
+    <a class="navbar-brand" href="./story.html">📖 Historia</a>
   </div>
 </nav>
 <!-- Body -->
@@ -76,7 +77,7 @@
     </div>
   </div>
   <!-- Cursos -->
-  <hr>
+  <!-- <hr> -->
   <div id="courses-section" class="padding-top-and-bottom">
     <div class="container">
       <!-- Título -->
@@ -159,5 +160,15 @@
   <!-- Script para animar texto -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
   <script src="./src/text.js"></script>
+  <!-- Animación -->
+  <script src="./src/three.min.js"></script>
+  <script src="./src/vanta.net.min.js"></script>
+  <script>
+    VANTA.NET({
+      el: "#courses-section",
+      color: 0x249d5d,
+      backgroundColor: "#f4f6f9"
+    })
+  </script>
 </body>
 </html>
